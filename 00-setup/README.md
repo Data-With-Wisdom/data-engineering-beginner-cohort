@@ -71,7 +71,7 @@
 
 ### What you teach (ONLY essentials):
 
-* Setup RDBMS SQLite3 or PostgreSQL
+* Setup RDBMS PostgreSQL
 * What is SQL and Types of SQL
 * SELECT, WHERE, ORDER BY, LIMIT
 * Filtering (AND / OR / IN)

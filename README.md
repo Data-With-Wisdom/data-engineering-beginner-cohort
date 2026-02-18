@@ -58,7 +58,7 @@ Assignment (02-concepts-terminology/C-assignments/):
 
 Lessons (03-sql-foundations/A-lessons/):
 1. Lesson 3.1: What is SQL and Types of SQL
-2. Lesson 3.2: Setting Up SQLite with Jupyter
+2. Lesson 3.2: Confirming Pgadmin setup and running a simple sql command
 3. Lesson 3.3: SELECT, WHERE, ORDER BY, LIMIT
 4. Lesson 3.4: Filtering with AND, OR, IN
 5. Lesson 3.5: Aggregations and GROUP BY
