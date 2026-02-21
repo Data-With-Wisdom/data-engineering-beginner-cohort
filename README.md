@@ -1,4 +1,4 @@
-# Data Engineering Beginner Cohort
+﻿# Data Engineering Beginner Cohort
 
 This repository contains the learning materials, activities, and assignments for the Data Engineering Beginner Cohort.
 
@@ -58,15 +58,16 @@ Assignment (02-concepts-terminology/C-assignments/):
 
 Lessons (03-sql-foundations/A-lessons/):
 1. Lesson 3.1: What is SQL and Types of SQL
-2. Lesson 3.2: Confirming Pgadmin setup and running a simple sql command
+2. Lesson 3.2: Database Fundamentals
 3. Lesson 3.3: SELECT, WHERE, ORDER BY, LIMIT
 4. Lesson 3.4: Filtering with AND, OR, IN
-5. Lesson 3.5: Aggregations and GROUP BY
-6. Lesson 3.6: All JOINs (INNER, LEFT, RIGHT, FULL JOINs)
-7. Lesson 3.7: Reading Query Results Like a Story
+5. Lesson 3.5: Aggregations (COUNT, SUM, AVG)
+6. Lesson 3.6: GROUP BY
+7. Lesson 3.7: JOINs (INNER JOIN and LEFT JOIN)
+8. Lesson 3.8: Reading Query Results Like a Story
 
 Activities (03-sql-foundations/B-activities/):
-1. Activity 3.1: Querying a Sample Dataset
+1. Activity 3.1: SQL Fundamentals Self-Check
 2. Activity 3.2: Join Two Tables
 
 Assignment (03-sql-foundations/C-assignments/):
@@ -138,3 +139,4 @@ Activities (07-big-data-concepts/B-activities/):
 
 Assignment (07-big-data-concepts/C-assignments/):
 1. Assignment 7.1: End-to-End Capstone Project
+

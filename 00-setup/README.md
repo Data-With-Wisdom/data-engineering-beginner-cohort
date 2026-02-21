@@ -71,13 +71,25 @@
 
 ### What you teach (ONLY essentials):
 
-* Setup RDBMS PostgreSQL
 * What is SQL and Types of SQL
+* Database Fundamentals:
+  * What is a Database
+  *   * Types of Databases (Relational vs Non-Relational)
+  * What is a Relational Database
+  * What is an RDBMS
+  * What is a Database Engine
+  * What is a Table
+  * Rows vs Columns
+  * Primary Key (basic idea only)
+  * How relational data is structured
+
+* Data types, CREATE DATABASE, CREATE TABLE, DROP TABLE
 * SELECT, WHERE, ORDER BY, LIMIT
 * Filtering (AND / OR / IN)
 * Aggregations (COUNT, SUM, AVG)
 * GROUP BY
-* INNER & LEFT JOIN (only these two)
+* Creating a Related Table
+* INNER, LEFT JOIN (only these two)
 * Reading query results like a story
 
 ❌ What you **do NOT** deep dive:
@@ -91,6 +103,7 @@
 
 * Answer **5 real business questions** using SQL
 * Explain queries in plain English
+
 
 ---
 
