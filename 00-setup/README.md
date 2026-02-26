@@ -115,17 +115,17 @@
 
 **Core Content:**
 - What is Python
+- **Why Python for data engineering?** (vs other languages)
+- Python Interpreter
 - **Virtual environments** (venv basics - keeping projects clean)
 - Python basics: variables, data types, loops, conditionals
-- Functions: writing reusable code
 - **Data structures**: lists, dictionaries, tuples (with data examples)
+- Functions: writing reusable code
 - Reading/writing files: CSV, JSON
 - String manipulation (cleaning messy data)
 - Error handling: try/except basics
-- **Why Python for data engineering?** (vs other languages)
 - **Code organization**: Writing readable scripts (naming, comments)
 - **Debugging tips** (print statements, reading error messages)
-- **Practice problems**: 10 short coding exercises
 - **Assignment**: Build a script that reads a CSV, cleans it, and exports cleaned version
 
 
