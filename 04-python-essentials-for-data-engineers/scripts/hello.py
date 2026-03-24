@@ -395,27 +395,288 @@
 # False or True = True
 # False or False = False
 
-age, city, country = 13, 'Lagos', 'Nigeria'
+# age, city, country = 13, 'Lagos', 'Nigeria'
 
-# if (age > 18 or city == 'Lagos') and (country == 'Nigeria'):
-#     print('------- Customer Qualified --------')
-#     print((age > 18) or (city == 'Lagos') or (country == 'Nigeria'))
-# elif age > 10:
-#     print('-------- User is just 10 years old ------')
+# # if (age > 18 or city == 'Lagos') and (country == 'Nigeria'):
+# #     print('------- Customer Qualified --------')
+# #     print((age > 18) or (city == 'Lagos') or (country == 'Nigeria'))
+# # elif age > 10:
+# #     print('-------- User is just 10 years old ------')
+# # else:
+# #     print('Customer is not qualified')
+# #     print((age > 18) or (city == 'Lagos') or (country == 'Nigeria'))
+
+
+
+
+
+# #  -----------------------------------
+# is_verified = False
+# print(not is_verified)
+
+# age = 19
+# if not (age > 18):
+#     print('--------- Qualified ---------')
 # else:
-#     print('Customer is not qualified')
-#     print((age > 18) or (city == 'Lagos') or (country == 'Nigeria'))
+#     print('--------- Not Qualified ---------')
+
+
+
+# ---------- Loops ----------
+
+## for loop
+# Syntax:
+
+# for i in iterable:
+#     ...
+
+
+# cities = ["Lagos", "Abuja", "Port Harcourt"]
+
+# print(cities)
+
+# for each_item in cities:
+#     print(each_item)
+#     if each_item == "Abuja":
+#         print(f"Finally found {each_item}")
+#     else:
+#         print(f"--------- {each_item} is not equal to Abuja ----------")
+
+
+
+# print(list(range(1, 101)))
+
+# range_from_1_to_100 = set(range(1, 101)) # list(range(1, 101)), tuple(range(1, 101))
+# # print(range_from_1_to_100)
+
+# even_numbers = []
+# odd_numbers = []
+
+# print(range_from_1_to_100)
+# for i in range_from_1_to_100:
+#     if i % 2 == 0:
+#         # push the item into the 'even_numbers'
+#         even_numbers.append(i)
+#         # print(even_numbers)
+#     else:
+#         odd_numbers.append(i)
+    
+
+# print(even_numbers)
+# print(odd_numbers)
+
+
+# ---------------------------- Looping over dictionary
+
+
+# customer = {
+#     "name": "Ahmed", 
+#     "age": 28, 
+#     "city": "Lagos"
+# }
+
+
+# print(customer.items())
+# # print(customer.keys())
+# # print(customer.values())
+
+# for i, j in customer.items():
+#     print(i, j)
+
+
+# print("---------- FOR LOOP ACTIVITY ------------------")
+
+# prices = [1000, 2500, 500, 7500] # output: 11500
+# # print(sum(prices))
+
+# total = 0
+# for price in prices:
+#     total += price
+
+# print(total)
+
+
+# WHILE LOOP
+
+### Syntaxes: 
+# while condition:
+#     ...
+
+# for i in iterable:
+#     ...
+
+# print(list(range(0, 5)))
+
+# lst_of_no = list(range(0, 5))
+
+# for each_item in lst_of_no:
+#     print(each_item)
+
+# count = 0
+# while count < 5:
+#     print(count)
+#     count += 1
+
+# ------ Retry Logic -------
+
+attempts, max_attempts = 0, 10
+
+# attempts = 0
+# max_attempts = 3
+# import time
+# while attempts < max_attempts:
+#     # time.sleep(.5)
+#     if attempts == 6:
+#         print("Attempt is 3")
+#         break
+#     elif attempts == 5:
+#         print('Attempt is 5, skipping... to 6')
+#         attempts += 1
+#         continue
+#     else:
+#         print(f"Attempt {attempts + 1}")
+
+#     print('------------------------------')
+#     attempts += 1
+
+# print("Reached attempt limit")
+
+
+# -------- NESTED LOOPS ---------
+
+# categories = ["Electronics", "Fashion"]
+# products = ["Item1", "Item2"]
+
+# for category in categories:
+#     # print(category) - fashion
+#     for product in products:
+#         print(f"{category} - {product}") 
+#         # 1. Fashion - Item1
+#         # 2. Fashion - Item2
+        
+
+# age = 10
+
+# if age == 10:
+#     print("--- I am 10 years old ----")
+# else:
+#     print("-------- Skipping -----------")
 
 
 
 
 
-#  -----------------------------------
-is_verified = False
-print(not is_verified)
 
-age = 19
-if not (age > 18):
-    print('--------- Qualified ---------')
-else:
-    print('--------- Not Qualified ---------')
+# if age == 10:
+#     print("--- I am 10 years old ----")
+# else:
+#     print("-------- Skipping -----------")
+
+
+# ------ FUNCTIONS -------------
+"""
+    Syntax:
+
+    def function_name():
+        ...
+"""
+# Function with no parameter
+def greet():
+    print(f"Hi, my name is Wisdom")
+
+# Function with 1 parameter (positional parameter)
+def greet(name):
+    print(f"Hi, my name is {name}")
+
+# greet("Gbenga")
+
+# Function with 2/multiple parameters.
+def calculate_total_price(price, quantity):
+    total = price * quantity
+    print(f"Total: ₦{total}")
+
+# calculate_total_price(1200, 5)
+
+
+def say_hello(name="Guest"):
+    print(f"Hello, {name}")
+
+# say_hello("Collins")
+
+
+def calculate_price(price: float, tax_rate=0.075, discount=0):
+    total = price * (1 + tax_rate) - discount
+    return total
+
+total_price = calculate_price(1000, tax_rate=0.080, discount=2)
+# print(total_price)
+
+
+
+def get_min_max(list_of_numbers):
+    minimum_value = min(list_of_numbers)
+    maximum_value = max(list_of_numbers)
+    return minimum_value, maximum_value
+
+
+# lst_numbers = (2, 3, 45, 12, 45, 6776, 0.8, 330.323, -0.232)
+
+# minum_value, *other_values = get_min_max(list_of_numbers=lst_numbers)
+# print(minum_value, other_values)
+
+
+def clean_phone_number(phone):
+    # Remove spaces and hyphens
+    cleaned = phone.replace(" ", "").replace("-", "")
+    return cleaned
+
+
+# cleaned_number_1 = clean_phone_number("080 234 4444 33")
+# cleaned_number_2 = clean_phone_number("0 80-2-3 4 44-44-33")
+# print(cleaned_number_1, cleaned_number_2)
+
+
+# --------- GLOBAL AND LOCAL SCOPE ----------
+
+global_variable = "I'm global"
+
+def clean_phone_number(phone):
+    # Remove spaces and hyphens
+
+    local_variable = "I'm local"
+
+    cleaned = phone.replace(" ", "").replace("-", "")
+    return cleaned
+
+
+# ------- DOCSTRING ----------
+def clean_phone_number(phone):
+    """
+        Remove spaces and hyphens.
+        This function is about .....
+        1. 
+        2. 
+    """
+
+    local_variable = "I'm local"
+
+    cleaned = phone.replace(" ", "").replace("-", "")
+    return cleaned
+
+clean_phone_number("090434")
+
+
+class Car:
+    """
+    werty
+    1... 
+    2....
+    """
+
+    def stop():
+        """
+        qwertyuiop .....
+        """
+        print("car has stopped")
+
+

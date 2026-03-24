@@ -1,0 +1,5 @@
+[
+  {"customer_id": 1, "name": "Ahmed", "city": "Lagos"},
+  {"customer_id": 2, "name": "Chioma", "city": "Abuja"},
+  {"customer_id": 3, "name": "Emeka", "city": "Lagos"}
+]
