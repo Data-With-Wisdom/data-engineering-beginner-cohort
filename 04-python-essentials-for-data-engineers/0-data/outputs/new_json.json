@@ -1,0 +1,23 @@
+[
+    {
+     "customer_id": "1",
+     "name": "ahmed Hassan",
+     "city": "lagos",
+     "email": "ahmed@gmail.com",
+     "total_spent": "50000"
+    },
+    {
+        "customer_id": "2",
+        "name": "chioma Obi",
+        "city": "abuja",
+        "email": "chioma@gmail.com",
+        "total_spent": "75000"
+    },
+    {
+        "customer_id": "3",
+        "name": "emeka Nwosu",
+        "city": "lagos",
+        "email": "emeka@gmail.com",
+        "total_spent": "30000"
+    }
+]
