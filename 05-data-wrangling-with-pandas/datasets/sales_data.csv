@@ -1,0 +1,6 @@
+Order_ID,Order_Date,Product,Quantity,Unit_Price,Region
+1,2024-01-01,Laptop,2,1200.5,North
+2,,Mouse,,25.0,South
+3,2024-01-03,Keyboard,5,abc,East
+4,2024-01-04,Monitor,1,300,West
+5,2024-01-05,Mouse,3,25,North

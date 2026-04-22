@@ -5,7 +5,7 @@ Order:
 
 Project 1 (after week 4):
 - Create Github account
-- Create and new project to hold:
+- Create a new project to hold:
     - Extract JSON from Source (Filesystem) using Python
     - Transform using Python
     - Load to a file using Python to filesystem in CSV format
